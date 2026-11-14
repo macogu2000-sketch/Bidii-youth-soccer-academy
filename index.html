@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIDII YOUTH SOCCER ACADEMY</title>
+<meta name="description" content="BIDII YOUTH SOCCER ACADEMY - Kericho and Homa Bay, Kenya.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:#101820;background:#f5f8f5;line-height:1.6}
+nav{position:sticky;top:0;z-index:20;background:#07110b;color:#fff;padding:10px 6%;display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid #f4c400}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900}.brand img{width:48px;height:48px;object-fit:contain}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:700}
+.hero{min-height:80vh;padding:60px 7%;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;background:linear-gradient(135deg,#07110b,#075b2d 65%,#0a7a3d);color:#fff}
+.hero h1{font-size:clamp(2.2rem,6vw,4.8rem);line-height:1;text-transform:uppercase}.hero h1 span{color:#f4c400}
+.hero p{font-size:1.15rem;color:#e6eee9;margin:22px 0;max-width:650px}
+.btn{display:inline-block;padding:14px 22px;border-radius:8px;background:#f4c400;color:#07110b;text-decoration:none;font-weight:900;margin-right:8px}.btn.white{background:#fff}
+.hero-logo{text-align:center}.hero-logo img{width:min(420px,90%);filter:drop-shadow(0 20px 35px #0008)}
+section{padding:70px 7%}.title{text-align:center;text-transform:uppercase;font-size:2rem;margin-bottom:35px}.title:after{content:"";display:block;width:65px;height:5px;background:#f4c400;margin:10px auto}
+.photo{width:100%;max-width:1200px;height:500px;object-fit:cover;display:block;margin:0 auto;border-radius:18px;box-shadow:0 15px 45px #0000001c}
+.caption{text-align:center;color:#58645e;margin-top:15px}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.cat{background:#fff;border-top:5px solid #f4c400;padding:25px 10px;text-align:center;border-radius:12px;box-shadow:0 8px 25px #00000010}.cat h3{color:#075b2d}
+.about{max-width:900px;margin:auto;text-align:center;color:#4e5c55;font-size:1.08rem}
+.locations{background:#07110b;color:#fff}.locations .title{color:#fff}.locgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:850px;margin:auto}.loc{background:#0e291a;padding:28px;text-align:center;border:1px solid #235b3a;border-radius:14px}.loc h3{color:#f4c400;font-size:1.4rem}
+.contact{text-align:center;background:#f4c400}.phone{font-size:1.8rem;font-weight:900;margin:12px 0;color:#07110b}.coach{font-size:1.15rem;margin-bottom:18px}
+footer{background:#030805;color:#aab6af;text-align:center;padding:24px}
+@media(max-width:850px){nav{flex-wrap:wrap}.navlinks{width:100%;text-align:center;margin-top:8px}.hero{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}.grid{grid-template-columns:repeat(2,1fr)}.locgrid{grid-template-columns:1fr}.photo{height:350px}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}.photo{height:260px}nav a{margin:0 7px;font-size:.85rem}}
+</style>
+</head>
+<body>
+<nav>
+<div class="brand"><img src="logo.png" alt="BIDII logo"><span>BIDII YOUTH SOCCER ACADEMY</span></div>
+<div class="navlinks"><a href="#teams">Teams</a><a href="#registration">Register</a><a href="#about">About</a><a href="#locations">Locations</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+<div>
+<h1>Growing <span>talent.</span><br>Building champions.</h1>
+<p>Developing young footballers through quality training, teamwork, discipline and opportunity.</p>
+<a class="btn" href="https://wa.me/254726720321">WhatsApp Us</a>
+<a class="btn white" href="tel:0726720321">Call 0726720321</a>
+</div>
+<div class="hero-logo"><img src="logo.png" alt="BIDII Youth Soccer Academy team logo"></div>
+</header>
+
+<section>
+<h2 class="title">Our Team</h2>
+<img class="photo" src="team-photo.jpg" alt="BIDII football team">
+<p class="caption">BIDII Youth Soccer Academy team</p>
+</section>
+
+<section id="teams">
+<h2 class="title">Age Categories</h2>
+<div class="grid">
+<div class="cat"><h3>U19</h3><p>Under 19</p></div>
+<div class="cat"><h3>U17</h3><p>Under 17</p></div>
+<div class="cat"><h3>U15</h3><p>Under 15</p></div>
+<div class="cat"><h3>U13</h3><p>Under 13</p></div>
+<div class="cat"><h3>U10</h3><p>Under 10</p></div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">About BIDII</h2>
+<p class="about">BIDII YOUTH SOCCER ACADEMY is committed to nurturing young football talent and helping players grow through football, discipline, teamwork and positive character. We provide a supportive environment where young players can train, compete and develop their potential.</p>
+</section>
+
+<section id="locations" class="locations">
+<h2 class="title">Our Locations</h2>
+<div class="locgrid">
+<div class="loc"><h3>📍 Kericho</h3><p>Youth football training and development.</p></div>
+<div class="loc"><h3>📍 Homa Bay</h3><p>Youth football training and development.</p></div>
+</div>
+</section>
+
+
+<section id="registration">
+<h2 class="title">Player Registration</h2>
+<div style="max-width:850px;margin:auto;background:#fff;padding:30px;border-radius:16px;box-shadow:0 10px 35px #00000012;border-top:5px solid #f4c400">
+  <div style="text-align:center;margin-bottom:22px">
+    <img src="logo.png" alt="BIDII logo" style="width:110px">
+    <h3 style="color:#075b2d;margin-top:8px">BIDII YOUTH SOCCER ACADEMY</h3>
+    <p><strong>Registration & Enquiries</strong></p>
+  </div>
+  <p style="text-align:center;color:#4e5c55;margin-bottom:20px">Parents and guardians can contact the academy to register a player for U10, U13, U15, U17 or U19.</p>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+    <input placeholder="Player's full name" style="padding:13px;border:1px solid #ccd5ce;border-radius:7px">
+    <input placeholder="Age / Date of birth" style="padding:13px;border:1px solid #ccd5ce;border-radius:7px">
+    <select style="padding:13px;border:1px solid #ccd5ce;border-radius:7px"><option>Select age category</option><option>U10</option><option>U13</option><option>U15</option><option>U17</option><option>U19</option></select>
+    <input placeholder="Parent/Guardian phone" type="tel" style="padding:13px;border:1px solid #ccd5ce;border-radius:7px">
+  </div>
+  <p style="text-align:center;margin:20px 0 10px;font-size:1.15rem"><strong>Registration Phone / WhatsApp: 0726720321</strong></p>
+  <div style="text-align:center">
+    <a class="btn" href="https://wa.me/254726720321">Register on WhatsApp</a>
+    <a class="btn white" href="tel:0726720321">Call to Register</a>
+  </div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2 class="title">Join BIDII</h2>
+<p class="coach"><strong>Coach:</strong> Mac Ogutu</p>
+<p>For registration, training information and academy enquiries:</p>
+<div class="phone">📱 0726720321</div>
+<a class="btn" href="https://wa.me/254726720321">Chat on WhatsApp</a>
+</section>
+
+<footer>© 2026 BIDII YOUTH SOCCER ACADEMY · Kericho & Homa Bay, Kenya</footer>
+</body>
+</html>
